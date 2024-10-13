@@ -16,6 +16,8 @@ margin: 0;
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
 
 .logo {
@@ -27,9 +29,19 @@ margin: 0;
 
 .menu ul {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 0;
+    margin: 0;
 }
 
-ul {
+ul a {
+    outline: 1px solid red;
     list-style-type: none;
     color: #F9FAF8;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 10px;
+    margin: 0;
 }
