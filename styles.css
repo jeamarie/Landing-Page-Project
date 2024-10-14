@@ -138,13 +138,13 @@ padding: 40px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 60px;
+    gap: 40px;
     margin-top: 40px;
 
 }
 
 .gallery-tile div {
-    max-width: 180px;
+    max-width: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -154,11 +154,14 @@ padding: 40px;
 }
 
 .image-placeholder.image-tile {
-    width: 180px;
-    height: 180px;
+    flex-shrink: 0;
+    width: 200px;
+    height: 200px;
 }
 
-
+.tile p {
+    margin: 15px 0 0 0;
+}
 
 /* quote wrapper */
 
