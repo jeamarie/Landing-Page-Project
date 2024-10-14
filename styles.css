@@ -19,7 +19,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
+    padding: 15px 40px;
+
 }
 
 .logo {
@@ -55,7 +56,7 @@ ul a {
 .welcome {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     padding: 40px 40px 60px;
     flex-wrap: wrap;
 }
@@ -92,7 +93,6 @@ h1 {
     font-weight: 700;
     padding: 10px 20px;
     cursor: pointer;
-    margin-bottom: 25px;
 }
 
 .welcome-left .button:hover {
@@ -100,13 +100,20 @@ h1 {
     transition: background-color .2s ease-in-out;
 }
 
+.welcome-left .link-button {
+    align-self: flex-start;
+    border-radius: 30px;
+    margin-bottom: 15px;
+}
+
 .image-placeholder {
     width: 500px;
     height: 250px;
     background-color: #c8c9c7;
     border-radius: 15px;
+    margin-top: 10px;
     /* flex-shrink: 0; */
-
+    
 }
 
-/* gallery-container */
+/* gallery wrapper */
