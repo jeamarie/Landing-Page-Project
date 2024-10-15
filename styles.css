@@ -84,7 +84,7 @@ h1 {
     margin: 0;
 }
 
-.welcome-left .button {
+.button {
     border: 2px solid #fa1228;
     background-color: #1F2937;
     color: #E5E7EB;
@@ -95,16 +95,16 @@ h1 {
     cursor: pointer;
 }
 
-.welcome-left .button:hover {
+.button:hover {
     background-color: #fa1228;
     transition: background-color .2s ease-in-out;
 }
 
-.welcome-left .link-button {
+.link-button {
     align-self: flex-start;
     border-radius: 30px;
     margin-bottom: 15px;
-}
+}  
 
 .image-placeholder {
     width: 500px;
@@ -118,7 +118,7 @@ h1 {
 
 /* gallery wrapper */
 
-.gallery-container {
+.gallery-container, .cta-container {
     background-color: #F9FAF8;
 }
 
@@ -171,4 +171,61 @@ padding: 40px;
 
 .quote {
     padding: 150px;
+}
+
+/* cta wrapper */
+.cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.cta-box {
+    width: 600px;
+    padding: 30px;
+    background-color: #3882F6;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    gap: 20px;
+}
+
+.cta-box h3 {
+    color: #F9FAF8;
+    font-size: 20px;
+    margin: 0;
+}
+
+.cta-box p {
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.cta-button.button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.cta-button.button:hover {
+    background-color: #fa1228;
+    transition: background-color .2s ease-in-out;
+}
+
+a.link-button {
+    margin: 0;
+}
+
+/* footer */
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 30px;
+}
+
+.footer p {
+    font-size: 18px;
+    color:#F9FAF8;
+    margin: 0;
+    padding: 0;
 }
