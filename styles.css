@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200;400;700;900&display=swap');
 
 body {
     font-family: Roboto, sans-serif;
@@ -180,7 +180,7 @@ padding: 40px;
 .quote-text {
     font-size: 36px;
     font-style: italic;
-    font-weight: 100;
+    font-weight: 200;
     margin: 0;
 }
 
